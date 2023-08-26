@@ -1,17 +1,15 @@
-# Basic Calculator using Java AWT 
+# Java_Basic_Calculator_using_AWT
 
-<img width="286" alt="Basic_Calculator image" src="https://github.com/MahfuzulIslamPranto/Java_Basic_Calculator_using_AWT/assets/121658967/9470dd08-2153-45c1-bf45-6920583a5d99">
-
-
+<img width="287" alt="Basic_Calculator image" src="https://github.com/MahfuzulIslamPranto/Java_Basic_Calculator_using_AWT/assets/121658967/9576b9a0-0cb9-4f5c-a4ad-33b981d4ec7f">
 
     package basiccalculator;
     import java.awt.*;
     import java.awt.event.*;
     public class BasicCalculator extends WindowAdapter implements ActionListener{
-    Frame frame;
-    Button button,bt1,bt2,bt3,bt4,bt5,bt6,bt7,bt8,bt9,bt0,btac,btmod,btback,btequal,btmul,btdiv,btadd,btsub,btneg,btpt;
-    Label label;
-    double n1,n2,check,result;
+        Frame frame;
+        Button button,bt1,bt2,bt3,bt4,bt5,bt6,bt7,bt8,bt9,bt0,btac,btmod,btback,btequal,btmul,btdiv,btadd,btsub,btneg,btpt;
+        Label label;
+        double n1,n2,check,result;
     BasicCalculator(){
         frame = new Frame("Basic Calculator");
         frame.setBackground(Color.cyan);
@@ -133,8 +131,7 @@
         btsub.addActionListener(this);
         btmod.addActionListener(this);
         btback.addActionListener(this);
-        btneg.addActionListener(this);<img width="288" alt="Basic_Calculator image" src="https://github.com/MahfuzulIslamPranto/Java_Basic_Calculator_using_AWT/assets/121658967/8ff7176b-f08c-4ed2-bf8a-bcbea0da9e6a">
-
+        btneg.addActionListener(this);
         btequal.addActionListener(this);
         btac.addActionListener(this);
 
