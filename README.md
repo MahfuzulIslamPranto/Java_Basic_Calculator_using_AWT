@@ -305,7 +305,7 @@
     }
     
     
-    public static void main(String[] args) {
-        new BasicCalculator();
+        public static void main(String[] args) {
+            new BasicCalculator();
+        }
     }
-}
