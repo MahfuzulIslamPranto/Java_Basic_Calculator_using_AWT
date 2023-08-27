@@ -142,6 +142,7 @@
         frame.add(button);
         frame.add(label);
         frame.setSize(400,530);
+        frame.setResizable(false);
         frame.setVisible(true);   
     }
     
